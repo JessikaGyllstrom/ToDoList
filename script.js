@@ -8,7 +8,7 @@ for (i = 0; i < nodelist.length; i++) {
   span.appendChild(txt);
   nodelist[i].appendChild(span);
 }
-// hide item when close b
+// hide item when close button is clicked
 var close = document.getElementsByClassName("close");
 var i;
 for (i = 0; i < close.length; i++) {
